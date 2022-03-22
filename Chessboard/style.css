@@ -1,0 +1,69 @@
+.container ul li {
+  list-style: none;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  display: inline-block;
+}
+.container ul li:nth-child(2n + 0) {
+  background-color: white;
+}
+
+.container ul:nth-child(2) li:nth-child(2n + 0) {
+  background-color: black;
+}
+.container ul:nth-child(2) li:nth-child(2n + 1) {
+  background-color: white;
+}
+.container ul:nth-child(3) li:nth-child(2n + 0) {
+  background-color: white;
+}
+.container ul:nth-child(3) li:nth-child(2n + 1) {
+  background-color: black;
+}
+.container ul:nth-child(4) li:nth-child(2n + 0) {
+  background-color: black;
+}
+.container ul:nth-child(4) li:nth-child(2n + 1) {
+  background-color: white;
+}
+.container ul:nth-child(5) li:nth-child(2n + 0) {
+  background-color: white;
+}
+.container ul:nth-child(5) li:nth-child(2n + 1) {
+  background-color: black;
+}
+.container ul:nth-child(6) li:nth-child(2n + 0) {
+  background-color: black;
+}
+.container ul:nth-child(6) li:nth-child(2n + 1) {
+  background-color: white;
+}
+
+.container ul:nth-child(7) li:nth-child(2n + 0) {
+  background-color: white;
+}
+.container ul:nth-child(7) li:nth-child(2n + 1) {
+  background-color: black;
+}
+.container ul:nth-child(8) li:nth-child(2n + 0) {
+  background-color: black;
+}
+.container ul:nth-child(8) li:nth-child(2n + 1) {
+  background-color: white;
+}
+.container ul:nth-child(9) {
+  display: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
